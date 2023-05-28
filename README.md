@@ -4,7 +4,7 @@ This project implements a hexagonal maze solver using C++ and Dijkstra's algorit
 
 ## Features
 - Hexmaze generation: The project includes a maze geenration algorithm.
-- Dijkstra's algorithm: A popular single source shortest path graph traversal algorithm. It works by exploring neighboring nodes from a starting point and gradually moving towards the destination, updating the shortest distances as it progresses.
+- Depth first search: Algorithm that starts at a particular node in a graph and explores as deep as possible along each branch before backtracking, visiting all nodes in a particular branch before moving on to the next branch. It follows the principle of depth-first traversal, prioritizing the exploration of nodes at the deepest level of the graph before visiting nodes at shallower levels. 
 
 ## Usage
 - Clone the repository to your local machine.
